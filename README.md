@@ -85,7 +85,7 @@ My security practice is divided into four operational disciplines, emphasizing r
 
 ---
 
-## <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Vim-Dark.svg" width="20" height="20" valign="middle" /> 03 // Networking & Infrastructure
+## <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Linux-Dark.svg" width="20" height="20" valign="middle" /> 03 // Networking & Infrastructure
 
 Networking is the foundational backbone of effective cybersecurity. I design, simulate, and stress-test enterprise networks using industry-standard simulation and virtualization platforms.
 
@@ -112,7 +112,7 @@ Networking is the foundational backbone of effective cybersecurity. I design, si
 
 ---
 
-## <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Golang-Dark.svg" width="20" height="20" valign="middle" /> 04 // Development & Engineering
+## <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/GoLang.svg" width="20" height="20" valign="middle" /> 04 // Development & Engineering
 
 I write purposeful software to automate repetitive tasks, simulate hostile network scenarios, and build platforms with high concurrent throughput.
 
@@ -184,28 +184,12 @@ Here are select public repositories demonstrating capabilities in offensive asse
 
 <br/>
 
-### 03. Fearless & Ruthless // Platform Documentation Ecosystem
-> **Primary Domain**: UI/UX Design • Web Development • Public Infrastructure
-
-<p align="center">
-  <a href="https://github.com/anasdh06/fearless-docs">
-    <img src="assets/projects/docs-platform-preview.svg" alt="Documentation Platform Ecosystem" width="100%" />
-  </a>
-</p>
-
-- **Description**: Production documentation hubs and legal policy portals designed for bot platforms. Hosted via GitHub Pages, featuring custom layouts, typography hierarchy, responsive navigation, and dark aesthetics.
-- **Security Relevance**: Transparent policy communication, Terms of Service enforcement, and user data privacy disclosures conforming to platform guidelines.
-- **Technologies**: `HTML5` • `CSS3` • `JavaScript` • `GitHub Pages`
-- **Live Portals**: [Fearless Docs](https://anasdh06.github.io/fearless-docs/) • [Ruthless Docs](https://anasdh06.github.io/ruthless-docs/)
-
-<br/>
-
-### 04. DIVAS // Premium Discord Music Bot & Full-Stack Dashboard
+### 03. DIVAS // Premium Discord Music Bot & Full-Stack Dashboard
 > **Primary Domain**: Full-Stack Web Development • Discord API • Real-Time Audio Engineering • UI/UX
 
 <p align="center">
   <a href="https://divasbot.live">
-    <img src="assets/projects/divas-preview.svg" alt="DIVAS Discord Music Bot & Dashboard" width="100%" />
+    <img src="assets/projects/divas-preview.png" alt="DIVAS Discord Music Bot & Dashboard" width="100%" />
   </a>
 </p>
 
@@ -286,7 +270,7 @@ A disciplined matrix of verified technologies and security instrumentation:
 
 ---
 
-## <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Postman-Dark.svg" width="20" height="20" valign="middle" /> 08 // Telemetry & Analytics
+## <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Postman.svg" width="20" height="20" valign="middle" /> 08 // Telemetry & Analytics
 
 Real-time GitHub activity metrics calibrated with customized command-center color schemes:
 
@@ -313,7 +297,7 @@ Real-time GitHub activity metrics calibrated with customized command-center colo
 
 ---
 
-## <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Discord-Dark.svg" width="20" height="20" valign="middle" /> 09 // Secure Uplink & Communications
+## <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Discord.svg" width="20" height="20" valign="middle" /> 09 // Secure Uplink & Communications
 
 Looking to collaborate on security assessments, network engineering projects, or high-performance tool development? Initiate contact through official channels:
 
