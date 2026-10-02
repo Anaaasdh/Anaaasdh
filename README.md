@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HERO BANNER -->
-<a href="https://github.com/anasdh06">
+<a href="https://github.com/Anaaasdh">
   <img src="assets/hero/cyber-command-banner.svg" alt="Anaaas - Cybersecurity Specialist Command Center" width="100%" />
 </a>
 
@@ -38,7 +38,7 @@
 ## <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Kali-Dark.svg" width="20" height="20" valign="middle" /> 01 // Executive Briefing
 
 ```yaml
-Operator       : Anaaas (anasdh06)
+Operator       : Anaaas (Anaaasdh)
 Primary Domain : Cybersecurity Specialist & Security Engineering
 Core Pillars   : Offensive Assessments • Network Architecture • Systems Automation • Human Interface (UI/UX)
 Methodology    : Zero-Trust Principles • Empirical Stress Testing • Threat Surface Minimization
@@ -156,7 +156,7 @@ Here are select public repositories demonstrating capabilities in offensive asse
 > **Primary Domain**: Offensive Security • Awareness Simulation • Containerization
 
 <p align="center">
-  <a href="https://github.com/anasdh06/AD-PHISH">
+  <a href="https://github.com/Anaaasdh/AD-PHISH">
     <img src="assets/projects/ad-phish-preview.svg" alt="AD-PHISH Project Preview" width="100%" />
   </a>
 </p>
@@ -164,7 +164,7 @@ Here are select public repositories demonstrating capabilities in offensive asse
 - **Description**: An automated social engineering and credential-harvesting awareness framework featuring 30+ responsive authentication templates. Built to demonstrate the mechanics of modern phishing vectors to enterprise security teams.
 - **Security Relevance**: Evaluates human perimeter defenses, analyzes header manipulation, and reinforces organizational training on credential theft prevention.
 - **Technologies**: `Hack` • `PHP` • `Shell` • `HTML5 / CSS3` • `Docker`
-- **Links**: [Repository & Code](https://github.com/anasdh06/AD-PHISH) • [Documentation](https://github.com/anasdh06/AD-PHISH#readme)
+- **Links**: [Repository & Code](https://github.com/Anaaasdh/AD-PHISH) • [Documentation](https://github.com/Anaaasdh/AD-PHISH#readme)
 
 <br/>
 
@@ -172,7 +172,7 @@ Here are select public repositories demonstrating capabilities in offensive asse
 > **Primary Domain**: Network Security • Concurrency Architecture • Infrastructure Testing
 
 <p align="center">
-  <a href="https://github.com/anasdh06/Eagles-X">
+  <a href="https://github.com/Anaaasdh/Eagles-X">
     <img src="assets/projects/eagles-x-preview.svg" alt="Eagles-X Project Preview" width="100%" />
   </a>
 </p>
@@ -180,7 +180,7 @@ Here are select public repositories demonstrating capabilities in offensive asse
 - **Description**: A concurrent HTTP connection pool and resource exhaustion assessment tool ported from multi-threaded Python to Golang. Replaced resource-heavy OS threads with lightweight Go goroutines for extreme connection density.
 - **Security Relevance**: Used to empirically verify web application firewalls (WAF), load balancer limits, and reverse-proxy resilience against Layer 7 connection depletion.
 - **Technologies**: `Go (Golang)` • `Python` • `EAGLESMAXPROCS` • `TCP/HTTP Sockets`
-- **Links**: [Repository & Code](https://github.com/anasdh06/Eagles-X) • [Architecture Guide](https://github.com/anasdh06/Eagles-X#readme)
+- **Links**: [Repository & Code](https://github.com/Anaaasdh/Eagles-X) • [Architecture Guide](https://github.com/Anaaasdh/Eagles-X#readme)
 
 <br/>
 
@@ -279,16 +279,16 @@ Real-time GitHub activity metrics calibrated with customized command-center colo
 <table border="0">
   <tr>
     <td align="center" width="50%">
-      <img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=anasdh06&show_icons=true&theme=tokyonight&hide_border=true&bg_color=080c10&title_color=00f5ff&icon_color=00f5ff&text_color=94a3b8" alt="Anaaas GitHub Stats" />
+      <img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=Anaaasdh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=080c10&title_color=00f5ff&icon_color=00f5ff&text_color=94a3b8" alt="Anaaas GitHub Stats" />
     </td>
     <td align="center" width="50%">
-      <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=anasdh06&layout=compact&theme=tokyonight&hide_border=true&bg_color=080c10&title_color=00f5ff&text_color=94a3b8" alt="Top Languages" />
+      <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=Anaaasdh&layout=compact&theme=tokyonight&hide_border=true&bg_color=080c10&title_color=00f5ff&text_color=94a3b8" alt="Top Languages" />
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
       <br/>
-      <img src="https://streak-stats.demolab.com/?user=anasdh06&theme=dark&background=080c10&border=30363d&stroke=00f5ff&ring=00f5ff&fire=00f5ff&currStreakLabel=00f5ff" alt="Contribution Streak" />
+      <img src="https://streak-stats.demolab.com/?user=Anaaasdh&theme=dark&background=080c10&border=30363d&stroke=00f5ff&ring=00f5ff&fire=00f5ff&currStreakLabel=00f5ff" alt="Contribution Streak" />
     </td>
   </tr>
 </table>
@@ -305,8 +305,8 @@ Looking to collaborate on security assessments, network engineering projects, or
 
 <p align="center">
   &nbsp;&nbsp;
-  <a href="https://github.com/anasdh06">
-    <img src="https://img.shields.io/badge/GITHUB-anasdh06-080c10?style=for-the-badge&logo=github&logoColor=00f5ff" alt="GitHub Profile" />
+  <a href="https://github.com/Anaaasdh">
+    <img src="https://img.shields.io/badge/GITHUB-Anaaasdh-080c10?style=for-the-badge&logo=github&logoColor=00f5ff" alt="GitHub Profile" />
   </a>
   &nbsp;&nbsp;
   &nbsp;&nbsp;
@@ -318,7 +318,7 @@ Looking to collaborate on security assessments, network engineering projects, or
 <br/>
 
 ```
-[SYSTEM ENDPOINT] :: HOST: anasdh06 :: CONNECTION TERMINATED SUCCESSFULLY :: 2026
+[SYSTEM ENDPOINT] :: HOST: Anaaasdh :: CONNECTION TERMINATED SUCCESSFULLY :: 2026
 ```
 
 </div>

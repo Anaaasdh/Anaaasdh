@@ -110,6 +110,6 @@
   <!-- Bottom Terminal Status Bar -->
   <rect x="40" y="282" width="1200" height="24" rx="3" fill="#060a0f" stroke="#152232" stroke-width="1"/>
   <text x="55" y="298" fill="#475569" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1">ANAS@SEC-OPS:~#</text>
-  <text x="175" y="298" fill="#00f5ff" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1">./init_portfolio.sh --mode=production --operator=anasdh06 --status=verified</text>
+  <text x="175" y="298" fill="#00f5ff" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1">./init_portfolio.sh --mode=production --operator=Anaaasdh --status=verified</text>
   <text x="1225" y="298" text-anchor="end" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1.5">INTEGRITY CHECK: VERIFIED [100%]</text>
 </svg>
