@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="100%" height="auto">
+  <defs>
+    <linearGradient id="divas_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e0612"/>
+      <stop offset="50%" stop-color="#100818"/>
+      <stop offset="100%" stop-color="#080309"/>
+    </linearGradient>
+    <linearGradient id="divas_accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e01f79"/>
+      <stop offset="50%" stop-color="#bd1362"/>
+      <stop offset="100%" stop-color="#a51fc4"/>
+    </linearGradient>
+    <linearGradient id="divas_gem_a" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbe3ee"/>
+      <stop offset="45%" stop-color="#de589b"/>
+      <stop offset="100%" stop-color="#e01f79"/>
+    </linearGradient>
+    <linearGradient id="divas_gem_b" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e01f79"/>
+      <stop offset="55%" stop-color="#a51fc4"/>
+      <stop offset="100%" stop-color="#6f3cc4"/>
+    </linearGradient>
+    <linearGradient id="divas_bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e01f79" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#e01f79" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#a51fc4" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#6f3cc4" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="divas_glow" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="divas_sofglow" x="-8%" y="-8%" width="116%" height="116%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="divas_grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#e01f79" stroke-width="0.5" stroke-opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="360" rx="8" fill="url(#divas_bg)"/>
+  <rect width="800" height="360" rx="8" fill="url(#divas_grid)"/>
+
+  <!-- Subtle radial glow behind gem -->
+  <ellipse cx="90" cy="185" rx="100" ry="80" fill="#e01f79" fill-opacity="0.06"/>
+  <ellipse cx="90" cy="185" rx="60" ry="40" fill="#a51fc4" fill-opacity="0.08"/>
+
+  <!-- Window title bar -->
+  <rect x="0" y="0" width="800" height="38" rx="8" fill="#0a0510"/>
+  <rect x="0" y="28" width="800" height="10" fill="#0a0510"/>
+  <circle cx="25" cy="19" r="6" fill="#ef4444"/>
+  <circle cx="45" cy="19" r="6" fill="#eab308"/>
+  <circle cx="65" cy="19" r="6" fill="#10b981"/>
+  <text x="400" y="24" text-anchor="middle" fill="#6b21a8" font-family="monospace" font-size="11" letter-spacing="2">DIVAS PLATFORM // NEXT.JS + DISCORD API // NODE: PRODUCTION</text>
+
+  <!-- Border frame -->
+  <rect x="0" y="0" width="800" height="360" rx="8" fill="none" stroke="#2a0a1e" stroke-width="1.5"/>
+  <rect x="0" y="0" width="800" height="360" rx="8" fill="none" stroke="#e01f79" stroke-width="1" stroke-opacity="0.2"/>
+
+  <!-- Gem Logo: Crown -->
+  <path d="M 62 130 L 73 143 L 90 122 L 107 143 L 118 130 L 114 148 L 66 148 Z" fill="url(#divas_accent)" opacity="0.9" filter="url(#divas_sofglow)"/>
+  <!-- Gem Facets -->
+  <path d="M 66 152 H 90 L 90 192 Z" fill="url(#divas_gem_a)"/>
+  <path d="M 90 152 H 114 L 90 192 Z" fill="url(#divas_gem_b)"/>
+  <path d="M 66 152 H 114 L 107 160 H 73 Z" fill="#fdf2f7" opacity="0.5"/>
+  <path d="M 66 152 H 114 L 90 192 Z" fill="none" stroke="rgba(253,242,247,0.6)" stroke-width="1" stroke-linejoin="round"/>
+
+  <!-- Horizontal accent line -->
+  <line x1="0" y1="205" x2="800" y2="205" stroke="url(#divas_bar)" stroke-width="1.5"/>
+
+  <!-- Main text block -->
+  <rect x="160" y="52" width="175" height="22" rx="3" fill="#1e0a2e" stroke="#e01f79" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="172" y="67" fill="#e01f79" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="bold" letter-spacing="2">DISCORD MUSIC BOT</text>
+
+  <!-- Title -->
+  <text x="160" y="120" fill="url(#divas_accent)" font-family="'Segoe UI', sans-serif" font-size="36" font-weight="900" letter-spacing="6" filter="url(#divas_glow)">DIVAS</text>
+  <text x="160" y="145" fill="#f0e0f8" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="600" letter-spacing="1.5">Slay the silence. Stream everything. Manage beautifully.</text>
+
+  <!-- Feature pills -->
+  <rect x="160" y="162" width="100" height="20" rx="10" fill="#1e0a2e" stroke="#e01f79" stroke-width="0.75"/>
+  <text x="210" y="176" text-anchor="middle" fill="#e01f79" font-family="monospace" font-size="10">YouTube &amp; Spotify</text>
+
+  <rect x="270" y="162" width="110" height="20" rx="10" fill="#1e0a2e" stroke="#a51fc4" stroke-width="0.75"/>
+  <text x="325" y="176" text-anchor="middle" fill="#a51fc4" font-family="monospace" font-size="10">Live Analytics</text>
+
+  <rect x="390" y="162" width="120" height="20" rx="10" fill="#1e0a2e" stroke="#6f3cc4" stroke-width="0.75"/>
+  <text x="450" y="176" text-anchor="middle" fill="#9a72dd" font-family="monospace" font-size="10">Per-Server Dashboard</text>
+
+  <rect x="520" y="162" width="100" height="20" rx="10" fill="#1e0a2e" stroke="#e01f79" stroke-width="0.75"/>
+  <text x="570" y="176" text-anchor="middle" fill="#e01f79" font-family="monospace" font-size="10">Live Lyrics</text>
+
+  <!-- Dashboard mockup on right side -->
+  <rect x="480" y="48" width="300" height="145" rx="6" fill="#0c0416" stroke="#2a0a1e" stroke-width="1"/>
+  <!-- Sidebar strip -->
+  <rect x="480" y="48" width="40" height="145" rx="6" fill="#120521" stroke="none"/>
+  <rect x="480" y="48" width="40" height="145" fill="#120521"/>
+  <rect x="519" y="48" width="1" height="145" fill="#e01f79" fill-opacity="0.2"/>
+  <!-- Sidebar icons (circles) -->
+  <circle cx="500" cy="72" r="7" fill="#e01f79" fill-opacity="0.15" stroke="#e01f79" stroke-width="1" stroke-opacity="0.4"/>
+  <circle cx="500" cy="96" r="7" fill="#a51fc4" fill-opacity="0.1" stroke="#a51fc4" stroke-width="1" stroke-opacity="0.3"/>
+  <circle cx="500" cy="120" r="7" fill="#6f3cc4" fill-opacity="0.1" stroke="#6f3cc4" stroke-width="1" stroke-opacity="0.25"/>
+  <circle cx="500" cy="144" r="7" fill="none" stroke="#3a1a5e" stroke-width="1"/>
+  <!-- Main panel content -->
+  <rect x="528" y="58" width="120" height="8" rx="2" fill="#e01f79" fill-opacity="0.2"/>
+  <rect x="528" y="74" width="80" height="6" rx="2" fill="#6f3cc4" fill-opacity="0.3"/>
+  <!-- Progress bar (equalizer) -->
+  <rect x="528" y="90" width="235" height="4" rx="2" fill="#1a0530"/>
+  <rect x="528" y="90" width="148" height="4" rx="2" fill="url(#divas_accent)"/>
+  <!-- Stats row -->
+  <rect x="528" y="106" width="52" height="32" rx="4" fill="#1a0530" stroke="#2a0a1e" stroke-width="1"/>
+  <text x="554" y="119" text-anchor="middle" fill="#e01f79" font-family="monospace" font-size="9" font-weight="bold">QUEUE</text>
+  <text x="554" y="132" text-anchor="middle" fill="#f0e0f8" font-family="monospace" font-size="11" font-weight="bold">24</text>
+  <rect x="590" y="106" width="52" height="32" rx="4" fill="#1a0530" stroke="#2a0a1e" stroke-width="1"/>
+  <text x="616" y="119" text-anchor="middle" fill="#a51fc4" font-family="monospace" font-size="9" font-weight="bold">VOLUME</text>
+  <text x="616" y="132" text-anchor="middle" fill="#f0e0f8" font-family="monospace" font-size="11" font-weight="bold">87%</text>
+  <rect x="652" y="106" width="52" height="32" rx="4" fill="#1a0530" stroke="#2a0a1e" stroke-width="1"/>
+  <text x="678" y="119" text-anchor="middle" fill="#6f3cc4" font-family="monospace" font-size="9" font-weight="bold">FILTER</text>
+  <text x="678" y="132" text-anchor="middle" fill="#10b981" font-family="monospace" font-size="9" font-weight="bold">BASS+</text>
+  <!-- Equalizer bars -->
+  <rect x="528" y="155" width="6" height="25" rx="2" fill="#e01f79"/>
+  <rect x="537" y="160" width="6" height="20" rx="2" fill="#a51fc4"/>
+  <rect x="546" y="148" width="6" height="32" rx="2" fill="#e01f79"/>
+  <rect x="555" y="163" width="6" height="17" rx="2" fill="#6f3cc4"/>
+  <rect x="564" y="152" width="6" height="28" rx="2" fill="#a51fc4"/>
+  <rect x="573" y="159" width="6" height="21" rx="2" fill="#e01f79"/>
+  <rect x="582" y="147" width="6" height="33" rx="2" fill="#6f3cc4"/>
+  <rect x="591" y="155" width="6" height="25" rx="2" fill="#e01f79"/>
+  <rect x="600" y="162" width="6" height="18" rx="2" fill="#a51fc4"/>
+  <rect x="609" y="150" width="6" height="30" rx="2" fill="#e01f79"/>
+  <rect x="618" y="157" width="6" height="23" rx="2" fill="#6f3cc4"/>
+  <rect x="627" y="145" width="6" height="35" rx="2" fill="#a51fc4"/>
+  <rect x="636" y="158" width="6" height="22" rx="2" fill="#e01f79"/>
+  <rect x="645" y="153" width="6" height="27" rx="2" fill="#6f3cc4"/>
+  <rect x="654" y="161" width="6" height="19" rx="2" fill="#a51fc4"/>
+
+  <!-- Bottom section — tech + links -->
+  <rect x="0" y="218" width="800" height="142" rx="8" fill="#080309"/>
+  <rect x="0" y="218" width="800" height="8" fill="#080309"/>
+
+  <text x="30" y="247" fill="#8b4a9c" font-family="monospace" font-size="11" letter-spacing="1">STACK</text>
+  <line x1="30" y1="252" x2="760" y2="252" stroke="#1e0a2e" stroke-width="1"/>
+
+  <!-- Stack badges row -->
+  <rect x="30" y="262" width="72" height="22" rx="11" fill="#0f0320" stroke="#e01f79" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="66" y="277" text-anchor="middle" fill="#e01f79" font-family="monospace" font-size="10" font-weight="600">Next.js</text>
+
+  <rect x="112" y="262" width="80" height="22" rx="11" fill="#0f0320" stroke="#a51fc4" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="152" y="277" text-anchor="middle" fill="#a51fc4" font-family="monospace" font-size="10" font-weight="600">TypeScript</text>
+
+  <rect x="202" y="262" width="72" height="22" rx="11" fill="#0f0320" stroke="#6f3cc4" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="238" y="277" text-anchor="middle" fill="#9a72dd" font-family="monospace" font-size="10" font-weight="600">Tailwind</text>
+
+  <rect x="284" y="262" width="100" height="22" rx="11" fill="#0f0320" stroke="#e01f79" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="334" y="277" text-anchor="middle" fill="#e01f79" font-family="monospace" font-size="10" font-weight="600">Discord.js v14</text>
+
+  <rect x="394" y="262" width="80" height="22" rx="11" fill="#0f0320" stroke="#a51fc4" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="434" y="277" text-anchor="middle" fill="#a51fc4" font-family="monospace" font-size="10" font-weight="600">Lavalink</text>
+
+  <rect x="484" y="262" width="80" height="22" rx="11" fill="#0f0320" stroke="#6f3cc4" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="524" y="277" text-anchor="middle" fill="#9a72dd" font-family="monospace" font-size="10" font-weight="600">YouTube API</text>
+
+  <rect x="574" y="262" width="72" height="22" rx="11" fill="#0f0320" stroke="#e01f79" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="610" y="277" text-anchor="middle" fill="#e01f79" font-family="monospace" font-size="10" font-weight="600">Spotify API</text>
+
+  <rect x="656" y="262" width="108" height="22" rx="11" fill="#0f0320" stroke="#a51fc4" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="710" y="277" text-anchor="middle" fill="#a51fc4" font-family="monospace" font-size="10" font-weight="600">SoundCloud API</text>
+
+  <!-- Bottom status bar -->
+  <rect x="30" y="305" width="740" height="28" rx="4" fill="#0c0416" stroke="#1e0a2e" stroke-width="1"/>
+  <circle cx="50" cy="319" r="4" fill="#10b981" filter="url(#divas_sofglow)"/>
+  <text x="65" y="323" fill="#c084fc" font-family="monospace" font-size="11">ALL SYSTEMS OPERATIONAL</text>
+  <text x="620" y="323" fill="#6b21a8" font-family="monospace" font-size="11" letter-spacing="1">🌐 divasbot.live</text>
+</svg>

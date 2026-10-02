@@ -198,9 +198,26 @@ Here are select public repositories demonstrating capabilities in offensive asse
 - **Technologies**: `HTML5` • `CSS3` • `JavaScript` • `GitHub Pages`
 - **Live Portals**: [Fearless Docs](https://anasdh06.github.io/fearless-docs/) • [Ruthless Docs](https://anasdh06.github.io/ruthless-docs/)
 
+<br/>
+
+### 04. DIVAS // Premium Discord Music Bot & Full-Stack Dashboard
+> **Primary Domain**: Full-Stack Web Development • Discord API • Real-Time Audio Engineering • UI/UX
+
+<p align="center">
+  <a href="https://divasbot.live">
+    <img src="assets/projects/divas-preview.svg" alt="DIVAS Discord Music Bot & Dashboard" width="100%" />
+  </a>
+</p>
+
+- **Description**: A premium, **free** Discord music bot streaming from YouTube, Spotify, and SoundCloud, paired with a glossy full-stack per-server management dashboard. Features studio-grade audio filters, live lyrics, autoplay radio, and a real-time queue system — all manageable from a single beautifully engineered interface.
+- **Engineering Highlights**: Built with **Next.js** and **TypeScript** on the frontend, **Discord.js v14** for bot interactions, and **Lavalink** for high-fidelity audio node management and low-latency streaming.
+- **Technologies**: `Next.js` • `TypeScript` • `Tailwind CSS` • `Discord.js v14` • `Lavalink` • `YouTube API` • `Spotify API` • `SoundCloud API`
+- **Links**: [Live Platform](https://divasbot.live) • [Dashboard](https://divasbot.live/dashboard) • [Documentation](https://divasbot.live/docs) • [Add to Discord](https://discord.com/oauth2/authorize?client_id=1529629432375935147&permissions=8&integration_type=0&scope=bot)
+
 ---
 
 ## <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Bash-Dark.svg" width="20" height="20" valign="middle" /> 07 // Technical Arsenal
+
 
 A disciplined matrix of verified technologies and security instrumentation:
 
