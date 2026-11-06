@@ -198,6 +198,22 @@ Here are select public repositories demonstrating capabilities in offensive asse
 - **Technologies**: `Next.js` • `TypeScript` • `Tailwind CSS` • `Discord.js v14` • `Lavalink` • `YouTube API` • `Spotify API` • `SoundCloud API`
 - **Links**: [Live Platform](https://divasbot.live) • [Dashboard](https://divasbot.live/dashboard) • [Documentation](https://divasbot.live/docs) • [Add to Discord](https://discord.com/oauth2/authorize?client_id=1529629432375935147&permissions=8&integration_type=0&scope=bot)
 
+<br/>
+
+### 04. VenQuests // Discord Quest Automation Plugin
+> **Primary Domain**: Client-Side Automation • TypeScript • Discord API • Developer Tooling
+
+<p align="center">
+  <a href="https://github.com/Anaaasdh/vencord-quests">
+    <img src="assets/projects/venquests-preview.png" alt="VenQuests Project Preview" width="100%" />
+  </a>
+</p>
+
+- **Description**: A Vencord plugin that completes Discord Quests in the background. It queues quests, auto-completes them one at a time with a 3 minute pause in between, tracks live progress in a customizable pill and alerts you when new quests appear.
+- **Engineering Highlights**: Strict **TypeScript**, a persistent per-account queue, rate-limit aware API retries, a stall watchdog, and a unit-tested core with **Vitest**, **ESLint**, **Prettier** and CI.
+- **Technologies**: `TypeScript` • `React` • `Vencord` • `Discord API` • `Vitest` • `GitHub Actions`
+- **Links**: [Repository & Code](https://github.com/Anaaasdh/vencord-quests) • [Releases](https://github.com/Anaaasdh/vencord-quests/releases)
+
 ---
 
 ## <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Bash-Dark.svg" width="20" height="20" valign="middle" /> 07 // Technical Arsenal
